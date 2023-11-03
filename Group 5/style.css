@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Con_text h1{
+    font-size: 60px;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    right: 40px;
+    
+}
+
+.Con_text h1 span{
+    margin-left: 15px;
+    color: orange;
+    font-family: mv boli;
+    line-height: 100px;
+
+}
+
+p{
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 52px;
+    bottom: -200px;
+    line-height: 25px;
+    color: black;
+
+}
+
+/*Menu*/
+
+.menu{
+    width: 100%;
+    padding: 560px 0;
+    border-radius: 50%;
+    height: 100%;
+    margin: -2px;
+    
+    
+
+}
+
+.menu h1{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: -10px;
+    margin-top: -100px;
+    margin-right: 900px;
+}
+
+.menu h1 span{
+    color: orange;
+    margin-left: 20px;
+    font-family: mv boli;
+    margin-right: 500px;
+    
+
+
+}
+
+.menu h1 span::after{
+    content: '';
+    width: 100%;
+    height: 6px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.menu .menu_box{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+}
+
+.menu .menu_box .menu_card{
+    width: 325px;
+    height: 450px;
+    padding-top: 45px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(rgba(255, 174, 0, 0))
+}
+
+.menu .menu_box .menu_card .menu_image{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    
+}
+.menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    
+    
+}
+
+.menu .menu_box .menu_card .menu_image:hover img{
+    transform: scale(1.1);
+
+}
+
+.menu .menu_box .menu_card .small_card{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 1;
+    border-radius: 7px;
+    transition: 0.3s;
+
+}
+
+.menu .menu_box .menu_card:hover .small_card{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+
+.menu .menu_box .menu_card .small_card i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    color: black;
+    cursor: pointer;
+    text-shadow: 0 0 6px black;
+    transition: 0.2s;
+
+}
+
+.menu .menu_box .menu_card .small_card i:hover{
+    color: yellow;
+}
+
+.menu .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 1opx auto;
+    font-size: 25px;
+    color: yellow;
+
+}
+
+.menu .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+
+}
+
+.menu .menu_box .menu_card .menu_info h3{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.menu .menu_box .menu_card .menu_info .menu_icon{
+    color: yellow;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("images/WhatsApp Image 2023-10-16 at 13.10.16_20c756ed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+.logo{
+    color: black;
+    font-size: 40px;
+
+}
+
+.logo:hover{
+    color: orangered;
+
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+body{ 
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family: Arial;
+}
+
+
+
+.menu{
+    width:400px;
+    float: right;
+    height:70px;
+    text-align: center
+    
+
+}
+
+ul{
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 2px;
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    width: 100px;
+    display: block;
+
+
+}
+
+ul li a:hover{
+    color: rgb(255, 72, 0);
+}
+
+
