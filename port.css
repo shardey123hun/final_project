@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: white;
+}
+#header{
+    width: 100%;
+    height: 400px;
+    background-image: url(project\ image/table.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+    color: bisque;
+    font-size: 50px;
+}
+p{
+    color: bisque;
+    text-align: center;
+}
+
+.portfolio-col-1{
+    padding: 5px;
+}
+.portfolio-col-1 h1{
+    color: black;
+}
+span{
+    color: blue;
+}
+.img-container1{
+    width: 200px;
+    height: 50vh;
+}
+
+.fufu{
+    padding-left: 40%;
+    width: 100%;
+    height: 100%;
+
+    
+}
+.TZ{
+    padding-left: 40%;
+}
